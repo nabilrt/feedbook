@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: Inter;
+    font-weight: 400;
+}
+@layer components {
+    .input-style {
+        @apply w-full px-2 py-2 border border-gray-200 outline-none rounded-md focus:border-gray-100
+    }
+  }
