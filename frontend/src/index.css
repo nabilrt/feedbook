@@ -18,4 +18,7 @@
   .search-input {
     @apply w-full px-2 py-2 bg-sky-100 border border-gray-200 outline-none rounded-md focus:border-gray-100 text-sm;
   }
+  .post-input {
+    @apply w-full px-2 py-4 bg-sky-100 border border-gray-200 outline-none rounded-md focus:border-gray-100 text-sm;
+  }
 }

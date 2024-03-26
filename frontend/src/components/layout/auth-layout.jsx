@@ -21,7 +21,7 @@ const AuthLayout = () => {
         <div className="flex-grow overflow-y-auto">
           <Outlet />
         </div>
-        <div className="w-1/5 h-full overflow-y-auto px-2 pt-2">
+        <div className="w-1/5 h-full  px-2 pt-2">
           <div className="card">
             <div className="flex flex-col space-y-3">
               <p className="text-xl tracking-wider font-semibold">Friends</p>

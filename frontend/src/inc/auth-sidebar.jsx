@@ -5,7 +5,7 @@ const AuthSidebar = () => {
   const { user } = useDetails();
 
   return (
-    <div className="w-1/5 h-full overflow-y-auto px-4 pt-2">
+    <div className="w-1/5 h-full px-4 pt-2">
       <div className="card">
         <div className="flex flex-col space-y-3 justify-center items-center ">
           <img src={user.avatar} alt="" height={120} width={120} />

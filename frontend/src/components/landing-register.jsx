@@ -49,7 +49,7 @@ const LandingRegister = () => {
   return (
     <div className="flex flex-col space-y-3 justify-center items-center">
       <form
-        className="my-10 border border-gray-300 bg-gray-100 p-4 flex flex-col space-y-4"
+        className="my-10 border border-gray-300 bg-gray-100 p-4 flex flex-col space-y-4 rounded-md"
         onSubmit={handleSubmit(handleRegistration)}
       >
         <p className="text-2xl font-semibold text-[#03a1ef]">Register</p>
