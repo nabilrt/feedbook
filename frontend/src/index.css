@@ -2,12 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
-    font-family: Inter;
-    font-weight: 400;
-}
 @layer components {
-    .input-style {
-        @apply w-full px-2 py-2 border border-gray-200 outline-none rounded-md focus:border-gray-100
-    }
+  .input-style {
+    @apply w-full px-2 py-2 border border-gray-200 outline-none rounded-md focus:border-gray-100;
   }
+  .button-style {
+    @apply w-full px-3 py-2 bg-blue-500 text-white rounded-sm hover:bg-blue-600;
+  }
+  .button-style-secondary {
+    @apply w-full px-3 py-2 bg-gray-200 text-gray-700 rounded-sm hover:bg-gray-300;
+  }
+  .card {
+    @apply border border-gray-100 bg-white rounded-md min-h-60 p-4 backdrop-blur-md shadow-md;
+  }
+  .search-input {
+    @apply w-full px-2 py-2 bg-sky-100 border border-gray-200 outline-none rounded-md focus:border-gray-100 text-sm;
+  }
+}

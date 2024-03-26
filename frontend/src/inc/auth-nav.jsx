@@ -8,7 +8,7 @@ const AuthNavBar = ({ user }) => {
   const navigate = useNavigate();
   const [themeMode, setThemeMode] = useState("light");
   return (
-    <nav className="flex space-x-2 bg-[#03a1ef] px-4 py-2 items-center">
+    <nav className="flex space-x-2 bg-[#03a1ef] px-4 py-2 items-center font-[Inter]">
       <div className="mr-auto items-center">
         <Link
           className="tracking-wider font-bold text-white text-xl hover:text-gray-100"

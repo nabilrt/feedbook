@@ -11,9 +11,7 @@ const useDetails = () => {
     queryFn: userDetails,
   });
 
-  console.log(userData); // Corrected from data to userData
-
-  return { user: userData?.user, isLoading, error }; // Added null check for userData
+  return { user: userData?.user, isLoading, error }; 
 };
 
 export default useDetails;

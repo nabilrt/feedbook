@@ -174,7 +174,7 @@ const LandingRegister = () => {
         </div>
         <button
           type="submit"
-          className="bg-[#03a1ef] text-white py-2 rounded-md hover:bg-blue-400"
+          className="bg-[#03a1ef] text-white py-2 rounded-md hover:bg-blue-600"
         >
           {responseHandler.loading ? (
             <MoonLoader color="#ffffff" size={10} />

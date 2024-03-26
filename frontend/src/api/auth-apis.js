@@ -27,6 +27,7 @@ export const userDetails = async () => {
     const response = await axios.get("/user/details");
     return response.data;
   } catch (error) {
+    
     throw new Error(error.message);
   }
 };
